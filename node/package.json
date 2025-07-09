@@ -1,0 +1,20 @@
+{
+  "name": "minimal-ts-node",
+  "version": "1.0.0",
+  "description": "Super minimal TypeScript project for Node.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test --import tsx src/test/*.ts",
+    "test:watch": "node --watch --test --import tsx src/test/*.ts",
+    "clean": "rm -rf lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0"
+  }
+}
